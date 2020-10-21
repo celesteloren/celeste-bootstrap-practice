@@ -6,6 +6,40 @@
 // $link-hover-color: grey;
 // $font-family-sans-serif: "Helvetica Neue";
 
+.navbar {
+  a:hover {
+    text-decoration: underline;
+  }
+}
+
+.active {
+  font-weight: bold;
+}
+
+.jumbotron {
+  color: white;
+  background-image: url(../img/pirate-ship.jpg);
+  background-repeat: no-repeat;
+  background-position: center;
+  background-size: cover;
+  text-align: center;
+  font-family: 'Chelsea Market', cursive;
+}
+
+.footer {
+  background-color: navy;
+  color: #ffffff;
+  text-align: center;
+  font-family: 'Chelsea Market', cursive;
+}
+
+h1, h3 {
+  font-family: 'Amatic SC', cursive;
+}
+
+p {
+  font-family: 'Chelsea Market', cursive;
+}
 // Import Bootstrap styles
 @import "../../node_modules/bootstrap/scss/bootstrap";
 
